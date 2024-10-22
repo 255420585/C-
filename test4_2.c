@@ -57,25 +57,46 @@
 //	return 0;
 //}
 
-enum Sex
-{
-	//这种枚举类型的变量的未来可能取值
-	//枚举常量
-	MALE = 3,//赋初值
-	FEMALE,
-	SECRET
-};
+//enum Sex
+//{
+//	//这种枚举类型的变量的未来可能取值
+//	//枚举常量
+//	MALE = 3,//赋初值
+//	FEMALE,
+//	SECRET
+//};
+//
+//int main()
+//{
+//	//4.枚举常量:可以一一列举的常量
+//	//关键词enum
+//
+//	enum SEX s = MALE;
+//	//MAL = 3;//error
+//	printf("%d\n",MALE);
+//	printf("%d\n", FEMALE);
+//	printf("%d\n", SECRET);
+//
+//	return 0;
+//}
+
+
+//字符串就是一串字符 - 用双引号括起来的一串字符
 
 int main()
 {
-	//4.枚举常量:可以一一列举的常量
-	//关键词enum
+	"abcdef";
+	"hello bit";
 
-	enum SEX s = MALE;
-	//MAL = 3;//error
-	printf("%d\n",MALE);
-	printf("%d\n", FEMALE);
-	printf("%d\n", SECRET);
+	return 0;
+}
+
+int main()
+{
+	//字符数组 - 数组是一组相同类型的数组
+	//字符串在结尾的位置隐藏了一个\0的转义字符
+	// \0是字符串的结束标志，不算作字符串内容
+	char arr[] = "hello";
 
 	return 0;
 }
