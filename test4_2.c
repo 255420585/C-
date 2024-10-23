@@ -83,20 +83,29 @@
 
 //字符串就是一串字符 - 用双引号括起来的一串字符
 
+//int main()
+//{
+//	"abcdef";
+//	"hello bit";
+//
+//	return 0;
+//}
+//
+//int main()
+//{
+//	//字符数组 - 数组是一组相同类型的数组
+//	//字符串在结尾的位置隐藏了一个\0的转义字符
+//	// \0是字符串的结束标志，不算作字符串内容
+//	char arr[] = "hello";
+//
+//	return 0;
+//}
+
+//转义字符
 int main()
 {
-	"abcdef";
-	"hello bit";
-
-	return 0;
-}
-
-int main()
-{
-	//字符数组 - 数组是一组相同类型的数组
-	//字符串在结尾的位置隐藏了一个\0的转义字符
-	// \0是字符串的结束标志，不算作字符串内容
-	char arr[] = "hello";
-
+	//printf("c:\test\test.c");
+	//printf("ab\ncd");
+	printf("c:\\test\\test.c");
 	return 0;
 }
